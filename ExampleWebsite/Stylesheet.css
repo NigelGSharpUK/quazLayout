@@ -1,0 +1,33 @@
+body {margin:10px; padding:0px; text-align:center; background-image:url("myPictures/Background.jpg"); font-family:Arial, Helvetica, sans-serif;}
+/* height is 1000 until set by loaded(). This stops a flicker on load. loaded() sets the container div's height to max of main and menu divs. */
+#container {position:relative; margin:0 auto; width: 980px; height: 1000px; text-align:left; background-color: #606080;}
+#masthead {position:relative; margin:0 auto; width: 980px; text-align:left; background-image:none; color:#FFFFFF; font-size:large}
+/*#menu {position:absolute; top: 70px; left:0px; width:250px; background: #EEE;}*/
+#menu {width:250px; float:left; clear:both; margin-top:8px;}
+#menu ul { padding-left: 0px; margin: 3px; }
+#menu ul li.level1 {background: #999; list-style-type: none; padding: 3px; margin: 3px 3px 3px 3px;}
+#menu ul li.level2 {background: #666; list-style-type: none; padding: 3px; margin: 3px 3px 3px 13px;}
+#menu ul li.level3 {background: #666; list-style-type: none; padding: 3px; margin: 3px 3px 3px 23px;}
+#menu ul li a {color:#000000}
+#menu ul li#activemenu {background: #FFF;}
+/*#main {position: absolute; top:70px; left:250px; width: 688;
+       border-left: solid 1px black; border-right: solid 1px black;
+	   margin: 0 10px; padding: 0 10px;}*/
+#main {width:730px; float:right;}
+#mid {background-image:url(ColumnsBackground.gif); color:#FFFFFF;}
+/*#right {width:100px; float:right; background:#CFC;}*/
+
+h1.article-title {margin: 0px;}
+h2 {margin: 0px;}
+div.content {background-image:none; margin: 10px 5px 10px 5px; padding: 0px 5px 0px 5px; background:#FFF;}
+div.force-clear {clear: both;background-image:none;}
+div.article-seperator {clear: both; background-image:none; height: 20px;}
+#footer {position:relative; margin:0 auto; width: 980px; text-align:left; height:30px; clear: both; background-image:none; color:#C0C0C0;}
+img.article-pic-left {float: left; margin: 5px 5px 5px 5px;}
+img.article-pic-center {margin: 5px 5px 5px 5px;}
+img.article-pic-right {float: right; margin: 5px 5px 5px 5px;}
+a.nolinkimg:link {border-style:none; outline-style:none; outline-color:white; border-color:white;}
+a.nolinkimg:visited {border-style:none; outline-style:none; outline-color:white; border-color:white;}
+a.nolinkimg img:link {border-style:none; outline-style:none; outline-color:white; border-color:white;}
+a.nolinkimg img:visited {border-style:none; outline-style:none; outline-color:white; border-color:white;}
+/*h1 {color: orange;}*/
