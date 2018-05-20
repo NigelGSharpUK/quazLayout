@@ -2,11 +2,7 @@
 #myMenu.php
 # This file is specific to the particular website being created
 
-echo "Hoo 1";
-
 require "quazLayout/quazGeneralMenu.php";
-
-echo "Hoo 2";
 
 function drawMyMenu($sSelectedMenu)
 {
@@ -28,5 +24,4 @@ function drawMyMenu($sSelectedMenu)
   
   endMenu($sSelectedMenu, $sAppend);
 }
-echo "Hoo 3";
 ?>
